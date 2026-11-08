@@ -1,0 +1,105 @@
+# 👨‍💻 Ángel Caldas Ocmín | Portafolio Web
+
+Portafolio personal donde presento mis proyectos web, mi perfil y mi evolución
+como desarrollador **Full Stack**. Cada proyecto se muestra en una tarjeta
+con su descripción, tecnologías y enlaces a la demo y al código.
+
+🌐 **Demo en vivo:** _([pega aquí el enlace de tu portafolio publicado](https://angelcaldasdev.github.io/Angel-Caldas-Ocmin-Portafolio/))_
+
+---
+
+## 📸 Vista previa
+
+_(Agrega aquí una captura de pantalla de tu portafolio: `![Vista previa](img/preview.png)`)_
+
+---
+
+## 👤 Sobre mí
+
+Estudiante de **Ingeniería de Sistemas Computacionales** en la UPN, con
+experiencia en atención al cliente y gestión de equipos. Me estoy formando como
+desarrollador Full Stack con enfoque en **Java, Spring Boot, Angular y
+TypeScript**, con la meta de trabajar en el sector bancario y, más adelante,
+en proyectos remotos internacionales.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Área | Tecnologías |
+|------|-------------|
+| Maquetación | HTML5, CSS3 |
+| Interactividad | JavaScript |
+| Diseño responsive | Bootstrap 5 |
+| Control de versiones | Git y GitHub |
+| Publicación | GitHub Pages |
+
+---
+
+## 📂 Secciones de la página
+
+- **Inicio:** presentación con foto, nombre y descripción breve
+- **Sobre mí:** mi perfil y trayectoria
+- **Tecnologías:** herramientas que uso y estoy aprendiendo
+- **Proyectos:** tarjetas con mis trabajos (se agregan nuevos con el tiempo)
+- **Contacto:** formas de comunicarte conmigo
+
+---
+
+## 🚀 Proyectos destacados
+
+### 🐱 Misha, la Gata Viral
+Tienda y página web dedicada a mi gata Misha, con carrusel de fotos,
+carrito de compras, registro e inicio de sesión, historial de pedidos y
+donaciones por Yape.
+
+- **Tecnologías:** HTML, CSS, JavaScript, Node.js, Express, SQLite/Turso, JWT
+- 🔗 [Ver demo](https://angelcaldasdev.github.io/Misha-Gata-Viral/)
+
+
+> ⏳ Más proyectos próximamente.
+
+---
+
+## 🗂️ Estructura del proyecto
+
+```
+portafolio/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── funciones.js
+├── img/
+└── README.md
+```
+
+---
+
+## ▶️ Cómo ejecutarlo en tu computadora
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/angelcaldasdev/Angel-Caldas-Ocmin-Portafolio
+   ```
+2. Abre la carpeta en **Visual Studio Code**.
+3. Ejecuta `index.html` con la extensión **Live Server**.
+
+---
+
+## 🎯 Objetivo
+
+Mostrar mi perfil profesional y mi crecimiento como desarrollador, agregando
+proyectos nuevos a medida que aprendo.
+
+---
+
+## 📬 Contacto
+
+- **GitHub:** https://github.com/acaldas05-cyber
+- **LinkedIn:** www.linkedin.com/in/angel-rafael-caldas-ocmín-930b1a151
+- **Correo:** acaldaso05@gmail.com
+
+---
+
+⭐ Si te gustó el proyecto, ¡regálame una estrella en GitHub!

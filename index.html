@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portafolio personal de Ángel Caldas Ocmin, desarrollador Full Stack en formación.">
+
+    <title>Ángel Caldas Ocmin | Full Stack Developer</title>
+
+    <!-- Bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="#inicio">
+                    AC<span>.</span>
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    id="menuButton"
+                    aria-label="Abrir menú"
+                    aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tecnologias">Tecnologías</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="hero-section">
+
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+
+                    <div class="col-lg-7">
+
+                        <p class="hero-label">
+                            <span class="status-dot"></span>
+                            DESARROLLADOR FULL STACK EN FORMACIÓN
+                        </p>
+
+                        <h1>
+                            Hola, soy <span>Ángel Caldas</span>
+                        </h1>
+
+                        <h2>
+                            Construyendo soluciones a través del código.
+                        </h2>
+
+                        <p class="hero-description">
+                            Estudiante de Ingeniería de Sistemas Computacionales,
+                            apasionado por la programación, la tecnología y el
+                            desarrollo de soluciones digitales.
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+
+                            <a href="#proyectos" class="btn btn-primary-custom">
+                                Ver mis proyectos
+                            </a>
+
+                            <a href="#contacto" class="btn btn-outline-custom">
+                                Contactarme
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                        <div class="hero-card">
+
+                            <div class="code-window">
+                                <div class="window-header">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <pre><code><span class="code-purple">public class</span> Developer {
+
+  <span class="code-purple">String</span> nombre =
+    <span class="code-green">"Ángel Caldas"</span>;
+
+  <span class="code-purple">String</span> objetivo =
+    <span class="code-green">"Full Stack Developer"</span>;
+
+  <span class="code-purple">void</span> aprender() {
+    <span class="code-blue">System.out.println</span>(
+      <span class="code-green">"Never stop coding!"</span>
+    );
+  }
+}</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi" class="section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>01 / CONÓCEME</span>
+                    <h2>Sobre mí</h2>
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-8">
+
+                        <p class="about-text">
+                            Soy estudiante de Ingeniería de Sistemas
+                            Computacionales y estoy construyendo mi camino
+                            profesional en el mundo del desarrollo de software.
+                        </p>
+
+                        <p class="about-text">
+                            Actualmente estoy fortaleciendo mis conocimientos
+                            en Java, Spring Boot, Angular, TypeScript,
+                            JavaScript y bases de datos Oracle.
+                        </p>
+
+                        <p class="about-text">
+                            Mi objetivo es desarrollar aplicaciones web
+                            funcionales, escalables y orientadas a resolver
+                            problemas reales.
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="info-card">
+                            <h3>Mi enfoque</h3>
+                            <p>Aprender, construir, mejorar y compartir.</p>
+                            <div class="info-line"></div>
+                            <p class="text-highlight">
+                                Del código al cliente, construyendo el puente.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TECNOLOGIAS -->
+        <section id="tecnologias" class="section-padding section-dark">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>02 / HERRAMIENTAS</span>
+                    <h2>Tecnologías</h2>
+                    <p>Mi stack tecnológico y herramientas de aprendizaje.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>Java</h3>
+                            <p>Programación</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>Spring Boot</h3>
+                            <p>Backend</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>Angular</h3>
+                            <p>Frontend</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>TypeScript</h3>
+                            <p>Desarrollo web</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>JavaScript</h3>
+                            <p>Frontend</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>HTML5</h3>
+                            <p>Estructura web</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>CSS3</h3>
+                            <p>Diseño web</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="tech-card">
+                            <h3>Oracle</h3>
+                            <p>Bases de datos</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>03 / EXPERIENCIA PRÁCTICA</span>
+                    <h2>Mis proyectos</h2>
+                    <p>Algunos proyectos académicos y personales.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="project-card">
+
+                            <div class="project-number">01</div>
+
+                            <h3>Mesa de Partes Digital</h3>
+
+                            <p>
+                                Sistema para registrar y gestionar reportes
+                                de daños y solicitudes de ayuda ante
+                                situaciones de emergencia.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Algoritmos</span>
+                            </div>
+
+                            <a href="#contacto" class="project-link">
+                                Conocer más →
+                            </a>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="project-card">
+
+                            <div class="project-number">02</div>
+
+                            <h3>EcoKit Universitario</h3>
+
+                            <p>
+                                Propuesta de innovación orientada a reducir
+                                el consumo de productos descartables y
+                                fomentar hábitos sostenibles.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Innovación</span>
+                                <span>Sostenibilidad</span>
+                            </div>
+
+                            <a href="#contacto" class="project-link">
+                                Conocer más →
+                            </a>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="project-card">
+
+                            <div class="project-number">03</div>
+
+                            <h3>Portafolio Personal</h3>
+
+                            <p>
+                                Mi espacio digital para presentar mis
+                                conocimientos, proyectos y evolución
+                                como desarrollador.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#inicio" class="project-link">
+                                Proyecto actual →
+                            </a>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section-padding section-dark">
+
+            <div class="container text-center">
+
+                <div class="section-heading">
+
+                    <span>04 / HABLEMOS</span>
+
+                    <h2>Construyamos algo juntos</h2>
+
+                    <p>
+                        Siempre estoy dispuesto a aprender, compartir ideas
+                        y participar en nuevos proyectos.
+                    </p>
+
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/acaldas05-cyber"
+                        target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                        target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container text-center">
+
+            <p>
+                © <span id="currentYear"></span>
+                Ángel Caldas Ocmin.
+                Desarrollado con pasión por el código.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/funciones.js"></script>
+
+</body>
+</html>
