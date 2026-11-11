@@ -10,7 +10,7 @@
 
     <title>Ángel Caldas Ocmin | Full Stack Developer</title>
 
-    <!-- FAVICON PERSONALIZADO (Letra A azul con estilo moderno) -->
+    <!-- FAVICON PERSONALIZADO -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%232563eb%22/><text x=%2250%25%22 y=%2254%25%22 font-size=%2262%22 font-weight=%22800%22 font-family=%22Segoe UI, Arial, sans-serif%22 fill=%22%23ffffff%22 text-anchor=%22middle%22 dominant-baseline=%22central%22>A</text></svg>">
 
     <!-- Bootstrap 5.3.8 -->
@@ -23,14 +23,12 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Ajuste visual para hacer el menú un poco más grande y elegante */
         .navbar-nav .nav-link {
             font-size: 1.05rem !important;
             font-weight: 600 !important;
             letter-spacing: 0.5px;
         }
 
-        /* Estilo para ajustar y centrar la foto de CATI, recortando el exceso de techo */
         .cati-img-fit {
             height: 360px;
             width: 100%;
@@ -39,7 +37,6 @@
             border-radius: 10px;
         }
 
-        /* Clase auxiliar para centrar los 3 puntos de la ventana de código */
         .window-header-centered {
             display: flex;
             justify-content: center;
@@ -48,14 +45,14 @@
         }
 
         .window-header-centered span {
-            margin-right: 0 !important; /* Anula el margen derecho individual para que el gap maneje el espacio perfectamente */
+            margin-right: 0 !important;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
+    <!-- NAVBAR CON BOTÓN DE DESCARGAR CV A LA DERECHA -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
@@ -64,15 +61,21 @@
                     ARCODEV<span>.</span>
                 </a>
 
-                <button class="navbar-toggler" type="button"
-                    id="menuButton"
-                    aria-label="Abrir menú"
-                    aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <!-- Contenedor derecho en móvil (botón CV + Toggler) -->
+                <div class="d-flex align-items-center gap-2 d-lg-none">
+                    <a href="pdf/cv-angel-caldas.pdf" target="_blank" class="btn btn-outline-custom btn-sm py-1 px-2" style="font-size: 0.8rem;">
+                        CV 📄
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        id="menuButton"
+                        aria-label="Abrir menú"
+                        aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
 
-                <div class="navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
 
                         <li class="nav-item">
                             <a class="nav-link" href="#inicio">Inicio</a>
@@ -94,6 +97,13 @@
                             <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
 
+                        <!-- Botón Descargar CV para Escritorio -->
+                        <li class="nav-item ms-lg-3 d-none d-lg-block">
+                            <a href="pdf/cv-angel-caldas.pdf" target="_blank" class="btn btn-outline-custom py-2 px-3" style="font-size: 0.9rem;">
+                                Descargar CV 📄
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
 
@@ -105,7 +115,6 @@
 
         <!-- INICIO -->
         <section id="inicio" class="hero-section">
-
             <div class="container">
                 <div class="row align-items-center min-vh-100">
 
@@ -130,22 +139,17 @@
                         </p>
 
                         <div class="d-flex flex-wrap gap-3 mt-4">
-
                             <a href="#proyectos" class="btn btn-primary-custom">
                                 Ver mis proyectos
                             </a>
-
                             <a href="#contacto" class="btn btn-outline-custom">
                                 Contactarme
                             </a>
-
                         </div>
 
                     </div>
 
                     <div class="col-lg-5 text-center mt-5 mt-lg-0">
-
-                        <!-- FOTO DE PERFIL BIEN ENCUADRADA -->
                         <div class="hero-card">
                             <div class="code-window">
                                 <div class="window-header">
@@ -161,31 +165,24 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
             </div>
-
         </section>
 
         <!-- SOBRE MI -->
         <section id="sobre-mi" class="section-padding">
-
             <div class="container">
-
                 <div class="section-heading">
                     <span>CONÓCEME</span>
                     <h2>Sobre mí</h2>
                 </div>
 
                 <div class="row align-items-center">
-
-                    <!-- FOTO CATI A LA IZQUIERDA CON PUNTOS CENTRADOS -->
                     <div class="col-lg-5 mb-4 mb-lg-0">
                         <div class="hero-card">
                             <div class="code-window">
-                                <!-- Aplicamos la clase window-header-centered aquí -->
                                 <div class="window-header window-header-centered">
                                     <span></span>
                                     <span></span>
@@ -201,39 +198,30 @@
                         </div>
                     </div>
 
-                    <!-- TEXTO A LA DERECHA -->
                     <div class="col-lg-7">
-
                         <p class="about-text">
                             Soy estudiante de la carrera de Ingeniería de Sistemas Computacionales en la 
                             <strong>Universidad Privada del Norte (UPN)</strong>, enfocado en consolidar un perfil técnico 
                             sólido como desarrollador Full Stack.
                         </p>
-
                         <p class="about-text">
                             A lo largo de mi formación académica y profesional he combinado el desarrollo de software con la innovación tecnológica. 
                             Fui distinguido con la <strong>Beca de Innovación de la UPN</strong> y destacado como <strong>finalista en proyectos de innovación</strong>, 
                             liderando propuestas de alto impacto como el desarrollo de un dispositivo electrónico mural con control ambiental 
                             cuya patente ha sido presentada oficialmente ante <strong>INDECOPI</strong>.
                         </p>
-
                         <p class="about-text">
                             Dominio tecnologías clave como Java, Spring Boot, Angular, TypeScript, JavaScript, Python, Node.js, Express, 
                             PostgreSQL, SQLite (Turso) y Oracle, aplicando buenas prácticas orientadas a resolver problemas reales con eficiencia y escalabilidad.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
         <!-- TECNOLOGIAS -->
         <section id="tecnologias" class="section-padding section-dark">
             <div class="container">
-
                 <div class="section-heading">
                     <span>HERRAMIENTAS</span>
                     <h2>Tecnologías</h2>
@@ -241,7 +229,6 @@
                 </div>
 
                 <div class="row g-4">
-
                     <!-- Java -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -254,7 +241,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Spring Boot -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -267,7 +253,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Angular -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -280,7 +265,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- TypeScript -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -293,7 +277,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- JavaScript -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -306,7 +289,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Python -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -319,7 +301,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Node.js -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -332,7 +313,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Express -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -345,7 +325,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- PostgreSQL -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -358,7 +337,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- HTML5 -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -371,7 +349,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- CSS3 -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -384,7 +361,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Oracle -->
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="tech-card">
@@ -397,17 +373,13 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
         <!-- PROYECTOS -->
         <section id="proyectos" class="section-padding">
-
             <div class="container">
-
                 <div class="section-heading">
                     <span>EXPERIENCIA PRÁCTICA</span>
                     <h2>Mis proyectos</h2>
@@ -415,13 +387,8 @@
                 </div>
 
                 <div class="row justify-content-center g-4">
-
-                    <!-- PROYECTO: Misha la Gata Viral -->
                     <div class="col-md-10 col-lg-8">
-
                         <article class="project-card">
-
-                            <!-- VIDEO DEMostrativo de Misha -->
                             <div class="project-video-box mb-4 text-center">
                                 <video autoplay muted loop playsinline class="img-fluid rounded shadow" style="max-height: 350px; width: 100%; object-fit: cover;">
                                     <source src="img/misha.mp4" type="video/mp4">
@@ -430,15 +397,12 @@
                             </div>
 
                             <div class="project-number">01</div>
-
                             <h3>Misha la Gata Viral</h3>
-
                             <p>
                                 Aplicación web completa concebida como ejercicio práctico y escalada a un entorno de producción real. 
                                 Integra una tienda virtual interactiva con carrito de compras, sistema de autenticación de usuarios por 
                                 tokens (JWT) y persistencia de pedidos. 
                             </p>
-                            
                             <p>
                                 <strong>Arquitectura Full Stack implementada:</strong> El frontend estático se aloja en 
                                 <strong>GitHub Pages</strong>, el servidor de API REST con Node.js y Express corre en 
@@ -460,67 +424,54 @@
                                     Ver repositorio en GitHub →
                                 </a>
                             </div>
-
                         </article>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-        <!-- CONTACTO -->
+        <!-- CONTACTO CON ENLACES A LINKEDIN, GITHUB Y CORREO -->
         <section id="contacto" class="section-padding section-dark">
-
             <div class="container text-center">
-
                 <div class="section-heading">
-
                     <span>HABLEMOS</span>
-
                     <h2>Construyamos algo juntos</h2>
-
                     <p>
                         Siempre estoy dispuesto a aprender, compartir ideas
                         y participar en nuevos proyectos.
                     </p>
-
                 </div>
 
                 <div class="contact-links">
-
                     <a href="https://github.com/angelcaldasdev"
                         target="_blank" rel="noopener noreferrer">
-                        GitHub
+                        GitHub 💻
                     </a>
 
                     <a href="https://www.linkedin.com/in/angel-rafael-caldas-ocmín-930b1a151" 
                         target="_blank" rel="noopener noreferrer">
-                         LinkedIn
+                         LinkedIn 🔗
+                    </a>
+
+                    <a href="mailto:angel.caldas.dev@gmail.com"
+                        target="_blank" rel="noopener noreferrer">
+                        Correo ✉️
                     </a>
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
-
         <div class="container text-center">
-
             <p>
                 © <span id="currentYear"></span>
                 Ángel Caldas Ocmin.
                 Desarrollado con pasión por el código.
             </p>
-
         </div>
-
     </footer>
 
     <!-- JAVASCRIPT -->

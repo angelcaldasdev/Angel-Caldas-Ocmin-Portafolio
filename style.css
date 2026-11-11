@@ -16,8 +16,8 @@
     --border: rgba(56, 189, 248, 0.18);
 }
 
-/* RESET */
-* {
+/* RESET CORREGIDO */
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -181,6 +181,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     transition: 0.3s ease;
+    background: transparent;
 }
 
 .btn-outline-custom:hover {
@@ -309,48 +310,8 @@ body {
     margin-bottom: 20px;
 }
 
-.info-card {
-    background: linear-gradient(
-        145deg,
-        #162a45,
-        #101b30
-    );
-    padding: 35px;
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-}
-
-.info-card h3 {
-    color: var(--white);
-    font-size: 24px;
-    margin-bottom: 18px;
-}
-
-.info-card p {
-    color: var(--gray);
-    line-height: 1.8;
-}
-
-.info-line {
-    height: 3px;
-    width: 65px;
-    background: linear-gradient(
-        90deg,
-        var(--primary),
-        var(--purple)
-    );
-    border-radius: 5px;
-    margin: 22px 0;
-}
-
-.info-card .text-highlight {
-    color: var(--primary) !important;
-    font-weight: 700;
-}
-
 /* =========================================
-   TECNOLOGÍAS (Iconos internos ordenados)
+   TECNOLOGÍAS
 ========================================= */
 
 .tech-card {
@@ -445,7 +406,6 @@ body {
 .project-card p {
     color: var(--gray);
     line-height: 1.9;
-    min-height: 115px;
 }
 
 .project-tags {
