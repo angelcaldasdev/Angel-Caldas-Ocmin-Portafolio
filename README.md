@@ -95,7 +95,7 @@ proyectos nuevos a medida que aprendo.
 
 - **GitHub:** [angelcaldasdev](https://github.com/angelcaldasdev)
 - **LinkedIn:** [Ángel Rafael Caldas Ocmín](https://www.linkedin.com/in/angel-rafael-caldas-ocm%C3%ADn-930b1a151)
-- **Correo:** [acaldaso05@gmail.com](mailto:acaldaso05@gmail.com)
+- - **Correo:** [acaldaso05@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=acaldaso05@gmail.com)
 
 ---
 
