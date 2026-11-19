@@ -2,17 +2,12 @@
 
 Portafolio personal donde presento mis proyectos web, mi perfil y mi evolución
 como desarrollador **Full Stack**. Cada proyecto se muestra en una tarjeta
-con su descripción, tecnologías y enlaces a la demo y al código.
+con su descripción, las tecnologías usadas y los enlaces a la demo y al código.
 
-🌐 **Demo en vivo:** _([pega aquí el enlace de tu portafolio publicado](https://angelcaldasdev.github.io/Angel-Caldas-Ocmin-Portafolio/))_
-
----
-
-## 📸 Vista previa
-
-_(Agrega aquí una captura de pantalla de tu portafolio: `![Vista previa](img/preview.png)`)_
+🌐 **Demo en vivo:** https://angelcaldasdev.github.io/Angel-Caldas-Ocmin-Portafolio/
 
 ---
+
 
 ## 👤 Sobre mí
 
@@ -38,24 +33,25 @@ en proyectos remotos internacionales.
 
 ## 📂 Secciones de la página
 
-- **Inicio:** presentación con foto, nombre y descripción breve
-- **Sobre mí:** mi perfil y trayectoria
-- **Tecnologías:** herramientas que uso y estoy aprendiendo
-- **Proyectos:** tarjetas con mis trabajos (se agregan nuevos con el tiempo)
-- **Contacto:** formas de comunicarte conmigo
+- **Inicio:** presentación con foto, nombre y descripción breve.
+- **Sobre mí:** mi perfil y trayectoria.
+- **Tecnologías:** herramientas que uso y estoy aprendiendo.
+- **Proyectos:** tarjetas con mis trabajos (se agregan nuevos con el tiempo).
+- **Contacto:** formas de comunicarte conmigo.
 
 ---
 
 ## 🚀 Proyectos destacados
 
 ### 🐱 Misha, la Gata Viral
+
 Tienda y página web dedicada a mi gata Misha, con carrusel de fotos,
 carrito de compras, registro e inicio de sesión, historial de pedidos y
 donaciones por Yape.
 
 - **Tecnologías:** HTML, CSS, JavaScript, Node.js, Express, SQLite/Turso, JWT
 - 🔗 [Ver demo](https://angelcaldasdev.github.io/Misha-Gata-Viral/)
-
+- 💻 [Ver código](https://github.com/angelcaldasdev/Misha-Gata-Viral)
 
 > ⏳ Más proyectos próximamente.
 
@@ -64,7 +60,7 @@ donaciones por Yape.
 ## 🗂️ Estructura del proyecto
 
 ```
-portafolio/
+Angel-Caldas-Ocmin-Portafolio/
 ├── index.html
 ├── css/
 │   └── styles.css
@@ -80,7 +76,8 @@ portafolio/
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/angelcaldasdev/Angel-Caldas-Ocmin-Portafolio
+   git clone https://github.com/angelcaldasdev/Angel-Caldas-Ocmin-Portafolio.git
+   cd Angel-Caldas-Ocmin-Portafolio
    ```
 2. Abre la carpeta en **Visual Studio Code**.
 3. Ejecuta `index.html` con la extensión **Live Server**.
@@ -96,10 +93,10 @@ proyectos nuevos a medida que aprendo.
 
 ## 📬 Contacto
 
-- **GitHub:** https://github.com/acaldas05-cyber
-- **LinkedIn:** www.linkedin.com/in/angel-rafael-caldas-ocmín-930b1a151
-- **Correo:** acaldaso05@gmail.com
+- **GitHub:** [angelcaldasdev](https://github.com/angelcaldasdev)
+- **LinkedIn:** [Ángel Rafael Caldas Ocmín](https://www.linkedin.com/in/angel-rafael-caldas-ocm%C3%ADn-930b1a151)
+- **Correo:** [acaldaso05@gmail.com](mailto:acaldaso05@gmail.com)
 
 ---
 
-⭐ Si te gustó el proyecto, ¡regálame una estrella en GitHub!
+⭐ Si te gustó el proyecto, ¡déjame una estrella en GitHub!
